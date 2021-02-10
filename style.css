@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    background: url('./background.jpg') bottom center;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .sound__buttons {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: 3rem;
+    margin: 1.5rem;
+    font-size: 2rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 12rem;
+    text-align: center;
+    color: gold;
+    background: #141414c2;
+    text-shadow: 0 0 1.5rem rgb(0, 0, 0);
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: black;
+    box-shadow: 0 0 1rem #00e1ff;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound__name {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #00e1ff;
+  }
